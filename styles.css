@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+
+}
+input{
+    width:100%;
+}
+#output{
+    width:330px;
+}
+.bttn{
+    width: 75px;
+    margin: 5px;
+
+}
+.btnOperation{
+    width: 75px;
+    margin: 5px;
+}
+#calculatorDiv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
