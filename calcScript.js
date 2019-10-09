@@ -32,6 +32,7 @@ $("#btnAC").click(function() {
 })
 equals.addEventListener("click",function(event){
     arg2 = textField.value.substring(textField.value.indexOf(operation)+1,textField.value.length-1);
-    textField.value += operations(arg1,parseFloat(arg2),operation);
+    textField.value = operations(arg1,parseFloat(arg2),operation);
+    arg1 = parseFloat(textField.value);
     resultGiven = true;
 })
