@@ -10,7 +10,6 @@ $("button").click(function(){
     if(operationButtons.includes(this.textContent)){
         arg1 = parseFloat(textField.value);
         operation = this.textContent;
-        console.log(arg1);
     }
     if(resultGiven){
         textField.value = '';
